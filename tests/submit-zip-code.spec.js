@@ -1,6 +1,6 @@
 import { test, expect } from "@playwright/test";
 
-test("Submit valid ZIP code", async ({ page }) => {
+test("Submit valid ZIP Code", async ({ page }) => {
   const response = await page.goto("https://hb-test.stage.sirenltd.dev/");
   expect(response).toBeTruthy();
   expect(response.status()).toBe(200);
