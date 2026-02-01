@@ -26,7 +26,7 @@ test.describe('HomeBuddy – Kitchen Remodeling | ZIP → Get Estimated Flow', (
   });
 
   // ── 2. ZIP input is visible and enabled ─────────────────────────────────
-  test('should display a visible and enabled ZIP code input field', async ({ page }) => {
+  test('should display a visible and enabled ZIP code input field!', async ({ page }) => {
     await page.goto(BASE_URL);
 
     const zipInput = page.locator(locators.zipInput);
